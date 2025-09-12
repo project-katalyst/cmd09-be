@@ -1,0 +1,399 @@
+Nome,ticker,valor
+BRF,brfs3,https://www.brf-global.com
+B3,b3sa3,https://www.b3.com.br
+Ambev,abev3,https://www.ambev.com.br
+Cogna,cogn3,https://www.cogna.com.br
+Banco do Brasil,bbas3,https://www.bb.com.br
+Azul,azul4,https://www.voeazul.com.br
+Lojas Renner,lren3,https://www.lojasrennersa.com.br
+Banco Bradesco,bbdc4,https://www.bradesco.com.br
+Petrobras,petr4,https://www.investidorpetrobras.com.br
+Banco BTG Pactual,bpac11,https://www.btgpactual.com
+Itaúsa,itsa4,https://www.itausa.com.br
+Magazine Luiza,mglu3,https://www.magazineluiza.com.br
+Minerva,beef3,https://www.minervafoods.com
+RaiaDrogasil,radl3,https://www.rd.com.br
+Itaú Unibanco,itub4,https://www.itau.com.br
+Embraer,embr3,https://www.embraer.com.br
+Cosan,csan3,https://www.statusinvest.com.br
+Vibra Energia,vbbr3,https://www.vibraenergia.com.br
+Raízen,raiz4,https://www.raizen.com.br
+Grupo Vamos,vamo3,https://www.grupovamos.com.br
+Azevedo & Travassos,azev4,https://www.azevedotravassos.com.br
+Braskem,brkm5,https://www.google.com
+Vale,vale3,https://www.vale.com
+Cemig,cmig4,https://www.cemig.com.br
+WEG,wege3,https://www.weg.net
+Grupo Pão de Açúcar,pcar3,https://www.gpa.com.br
+Rumo,rail3,https://www.rumolog.com
+Petrobras,petr3,https://www.investidorpetrobras.com.br
+Marcopolo,pomo4,https://www.marcopolo.com.br
+Vivo,vivt3,https://www.telefonica.com.br
+Cyrela,cyre3,https://www.cyrela.com.br
+Motiva,motv3,https://www.ccr.com.br
+CVC,cvcb3,https://www.cvccorp.com.br
+Usiminas,usim5,https://www.usiminas.com
+3R Petroleum,brav3,https://www.3rpetroleum.com.br
+Banco Bradesco,bbdc3,https://www.bradesco.com.br
+PetroRio,prio3,https://www.prio3.com.br
+Localiza,rent3,https://www.localiza.com
+Copel,cple6,https://www.copel.com
+Equatorial Energia,eqtl3,https://www.equatorialenergia.com.br
+AZT Energia,azte3,https://www.statusinvest.com.br
+Assaí,asai3,https://www.assai.com.br
+Marfrig,mrfg3,https://www.marfrig.com.br
+Rede D'Or,rdor3,https://www.rededorsaoluiz.com.br
+Eletrobras,elet3,https://www.eletrobras.com
+Serena Energia,srna3,https://www.statusinvest.com.br
+Gerdau,ggbr4,https://www.gerdau.com
+Siderúrgica Nacional,csna3,https://www.csn.com.br
+Metalúrgica Gerdau,goau4,https://www.gerdau.com
+SLC Agrícola,slce3,https://www.slcagricola.com.br
+PetroRecôncavo,recv3,https://www.statusinvest.com.br
+Hapvida,hapv3,https://www.hapvida.com.br
+Dexco,dxco3,https://www.dex.co
+Arezzo,azza3,https://www.arezzoco.com.br
+Locaweb,lwsa3,https://www.locaweb.com.br
+Oi,oibr3,https://www.oi.com.br
+Casas Bahia,bhia3,https://www.grupocasasbahia.com.br
+CBA,cbav3,https://www.cba.com.br
+MRV,mrve3,https://www.mrv.com.br
+TIM,tims3,https://www.tim.com.br
+CSN Mineração,cmin3,https://www.csnmineracao.com.br
+Eneva,enev3,https://www.eneva.com.br
+Cury,cury3,https://www.statusinvest.com.br
+Recrusul,rcsl4,https://www.recrusul.com.br
+Azevedo & Travassos,azev3,https://www.azevedotravassos.com.br
+Grupo Mateus,gmat3,https://www.statusinvest.com.br
+Klabin,klbn11,https://www.klabin.com.br
+Allos,alos3,https://www.alianscesonae.com.br
+GPS,ggps3,https://www.gpssa.com.br
+Caixa Seguridade,cxse3,https://www.caixaseguridade.com.br
+Suzano,suzb3,https://www.suzano.com.br
+Odontoprev,odpv3,https://www.odontoprev.com.br
+Copel,cple3,https://www.copel.com
+BB Seguridade,bbse3,https://www.statusinvest.com.br
+Movida,movi3,https://www.movida.com.br
+Petz,petz3,https://www.petz.com.br
+Simpar,simh3,https://www.simpar.com.br
+Ânima Educação,anim3,https://www.animaeducacao.com.br
+Multiplan,mult3,https://www.multiplan.com.br
+Ultrapar,ugpa3,https://www.ultra.com.br
+COPASA,csmg3,https://www.copasa.com.br
+Totvs,tots3,https://www.totvs.com
+JHSF,jhsf3,https://www.jhsf.com.br
+YDUQS,yduq3,https://www.yduqs.com.br
+Fleury,flry3,https://www.fleury.com.br
+Banco Santander,sanb11,https://www.santander.com.br
+Helbor,hbor3,https://www.helbor.com.br
+Méliuz,cash3,https://www.meliuz.com.br
+Smart Fit,smft3,https://www.investor.smartfit.com.br
+Oncoclínicas,onco3,https://www.grupooncoclinicas.com
+EcoRodovias,ecor3,https://www.ecorodovias.com.br
+Lojas Quero-Quero,ljqq3,https://www.infomoney.com.br
+Vivara,viva3,https://www.vivara.com.br
+Light,ligt3,https://www.light.com.br
+Auren Energia,aure3,https://www.statusinvest.com.br
+Iguatemi,igti11,https://www.jereissati.com.br
+Jereissati Participações,igti11,https://www.jereissati.com.br
+Iguatemi,igti11,https://www.jereissati.com.br
+Jereissati Participações,igti11,https://www.jereissati.com.br
+Porto Seguro,pssa3,https://www.portoseguro.com.br
+Sabesp,sbsp3,https://www.sabesp.com.br
+Energisa,engi11,https://www.energisa.com.br
+Bradespar,brap4,https://www.bradespar.com.br
+Randon,rapt4,https://www.randon.com.br
+Hypera,hype3,https://www.hypera.com.br
+Intelbras,intb3,https://www.investidor10.com.br
+Construtora Tenda,tend3,https://www.tenda.com
+C&A,ceab3,https://www.cea.com.br
+CPFL Energia,cpfe3,https://www.cpfl.com.br
+Americanas,amer3,https://www.americanas.io
+Armac,arml3,https://www.armac.com.br
+São Martinho,smto3,https://www.saomartinho.com.br
+M. Dias Branco,mdia3,https://www.mdiasbranco.com.br
+ISA Energia,isae4,https://www.isaenergiabrasil.com.br
+Santos Brasil,stbp3,https://www.santosbrasil.com.br
+EZTEC,eztc3,https://www.eztec.com.br
+PDG Realty,pdgr3,https://www.pdg.com.br
+Banco Pan,bpan4,https://www.bancopan.com.br
+Taesa,taee11,https://www.taesa.com.br
+Hidrovias do Brasil,hbsa3,https://www.hbsa.com.br
+Klabin,klbn4,https://www.klabin.com.br
+Direcional,dirr3,https://www.direcional.com.br
+Bemobi,bmob3,https://www.infomoney.com.br
+Engie,egie3,https://www.engie.com.br
+3tentos,tten3,https://www.3tentos.com.br
+Infracommerce,ifcm3,https://www.infracommerce.com.br
+Neoenergia,neoe3,https://www.neoenergia.com
+Qualicorp,qual3,https://www.qualicorp.com.br
+Plano&Plano,plpl3,https://www.planoeplano.com.br
+Sanepar,sapr4,https://www.sanepar.com.br
+Grendene,grnd3,https://www.grendene.com.br
+Enjoei,enju3,https://www.enjoei.com
+Boa Safra Sementes,soja3,https://www.boasafrasementes.com.br
+Moura Dubeux,mdne3,https://www.statusinvest.com.br
+Eletrobras,elet6,https://www.eletrobras.com
+Banrisul,brsr6,https://www.banrisul.com.br
+Sanepar,sapr11,https://www.sanepar.com.br
+IMC Alimentação,meal3,https://www.internationalmealcompany.com
+Grupo SBF,sbfg3,https://www.gruposbf.com.br
+Mills,mils3,https://www.mills.com.br
+Kepler Weber,kepl3,https://www.kepler.com.br
+Camil Alimentos,caml3,https://www.camilalimentos.com.br
+Alupar,alup11,https://www.alupar.com.br
+Alpargatas,alpa4,https://www.alpargatas.com.br
+Multilaser,mlas3,https://www.multilaser.com.br
+Viveo,vveo3,https://www.conteudos.xpi.com.br
+Positivo,posi3,https://www.positivoinformatica.com.br
+Pague Menos,pgmn3,https://www.paguemenos.com.br
+Irani,rani3,https://www.irani.com.br
+Iochpe-Maxion,mypk3,https://www.iochpe.com.br
+Jalles Machado,jall3,https://www.statusinvest.com.br
+Blau Farmacêutica,blau3,https://www.blau.com
+Espaçolaser,espa3,https://www.espacolaser.com.br
+Priner,prnr3,https://www.priner.com.br
+Melnick,melk3,https://www.melnick.com.br
+Mitre Realty,mtre3,https://www.mitrerealty.com.br
+Itaú Unibanco,itub3,https://www.itau.com.br
+Ser Educacional,seer3,https://www.sereducacional.com
+IRB Brasil RE,irbr3,https://www.irbre.com
+Banco ABC Brasil,abcb4,https://www.abcbrasil.com.br
+Vulcabras,vulc3,https://www.vulcabrasazaleia.com.br
+Cruzeiro do Sul Educacional,csed3,https://www.cruzeirodosuleducacional.com.br
+Ferbasa,fesa4,https://www.ferbasa.com.br
+Schulz,shul4,https://www.schulzsa.com
+Sequoia Logística,seql3,https://www.sequoialog.com.br
+Usiminas,usim3,https://www.usiminas.com
+Guararapes,guar3,https://www.infomoney.com.br
+Dasa,dasa3,https://www.dasa3.com.br
+Orizon,orvr3,https://www.infomoney.com.br
+Tupy,tupy3,https://www.tupy.com.br
+Mater Dei,matd3,https://www.infomoney.com.br
+Dimed,pnvl3,https://www.panvel.com.br
+Wilson Sons,port3,https://www.statusinvest.com.br
+SYN,syne3,https://www.ccpsa.com.br
+Even,even3,https://www.even.com.br
+Banco BMG,bmgb4,https://www.bancobmg.com.br
+Unifique,fiqe3,https://www.unifique.com.br
+Tegma,tgma3,https://www.tegma.com.br
+Brisanet,brst3,https://www.brisanet.com.br
+Trisul,tris3,https://www.trisul-sa.com.br
+JSL,jslg3,https://www.jsl.com.br
+Track & Field,tfco4,https://www.statusinvest.com.br
+HBR Realty,hbre3,https://www.hbrrealty.com.br
+Valid,vlid3,https://www.valid.com.br
+Eternit,eter3,https://www.eternit.com.br
+Klabin,klbn3,https://www.klabin.com.br
+Portobello,ptbl3,https://www.portobello.com.br
+Wiz Soluções,wizc3,https://www.wizsolucoes.com.br
+Lavvi Incorporadora,lavv3,https://www.lavvi.com.br
+BR Partners,brbi11,https://www.investidor10.com.br
+Gafisa,gfsa3,https://www.gafisa.com.br
+Taurus,tasa4,https://www.taurus.com.br
+Sanepar,sapr3,https://www.sanepar.com.br
+Mahle Metal Leve,leve3,https://www.mahle.com.br
+Technos,tecn3,https://www.statusinvest.com.br
+OceanPact,opct3,https://www.statusinvest.com.br
+Itaúsa,itsa3,https://www.itausa.com.br
+Marcopolo,pomo3,https://www.marcopolo.com.br
+Vittia,vitt3,https://www.statusinvest.com.br
+Paranapanema,pmam3,https://www.paranapanema.com.br
+Cemig,cmig3,https://www.cemig.com.br
+Banco Pine,pine4,https://www.pine.com
+BrasilAgro,agro3,https://www.brasil-agro.com
+Fras-le,fras3,https://www.fras-le.com.br
+LOG CP,logg3,https://www.logcp.com.br
+Profarma,pfrm3,https://www.profarma.com.br
+Zamp,zamp3,https://www.zamp.com.br
+Fertilizantes Heringer,fher3,https://www.heringer.com.br
+Lopes,lpsb3,https://www.lopes.com.br
+Desktop,desk3,https://www.google.com
+Alliança,aalr3,https://www.allianca.com
+Estapar,alpk3,https://www.infomoney.com.br
+Tecnisa,tcsa3,https://www.tecnisa.com.br
+VITRUBREPCOM,vtru3,https://www.investors.vitru.com.br
+Braskem,brkm3,https://www.google.com
+Taesa,taee4,https://www.taesa.com.br
+Recrusul,rcsl3,https://www.recrusul.com.br
+Unipar,unip6,https://www.unipar.com
+Indústrias ROMI,romi3,https://www.romi.com
+Lupatech,lupa3,https://www.lupatech.com.br
+Inepar,inep4,https://www.inepar.com.br
+Ambipar,ambp3,https://www.moneytimes.com.br
+Aeris Energy,aeri3,https://www.aerisenergy.com.br
+Banco Santander,sanb3,https://www.santander.com.br
+Banco Santander,sanb4,https://www.santander.com.br
+Dexxos,dexp3,https://www.dexxos.com.br
+Automob,amob3,https://www.automob.com.br
+Taesa,taee3,https://www.taesa.com.br
+D1000 Varejo Farma,dmvf3,https://www.statusinvest.com.br
+Lojas Marisa,amar3,https://www.marisa.com.br
+Eucatex,euca4,https://www.eucatex.com.br
+Bradespar,brap3,https://www.bradespar.com.br
+Viver,vivr3,https://www.viver.com.br
+CSU Cardsystem,csud3,https://www.csu.com.br
+Time For Fun,show3,https://www.t4f.com.br
+Allied,alld3,https://www.statusinvest.com.br
+Renova Energia,rnew3,https://www.investidor10.com.br
+Traders Club,trad3,https://www.infomoney.com.br
+Oi,oibr4,https://www.oi.com.br
+Inepar,inep3,https://www.inepar.com.br
+Cambuci,camb3,https://www.infomoney.com.br
+Metalúrgica Gerdau,goau3,https://www.gerdau.com
+Triunfo,tpis3,https://www.triunfo.com
+Biomm,biom3,https://www.biomm.com
+Terra Santa,land3,https://www.terrasantapa.com.br
+Energisa,engi3,https://www.energisa.com.br
+Fictor Alimentos,fict3,https://www.fictoralimentos.com.br
+Coelce,coce5,https://www.eneldistribuicao.com.br
+Dotz,dotz3,https://www.infomoney.com.br
+WDC Networks,lvtc3,https://www.google.com
+Banco Mercantil do Brasil,bmeb4,https://www.mercantildobrasil.com.br
+Electro Aço Altona,ealt4,https://www.altona.com.br
+LE LIS BLANC,vste3,https://www.lelis.com.br
+Unicasa,ucas3,https://www.unicasamoveis.com.br
+AgroGalaxy,agxy3,https://www.infomoney.com.br
+Alupar,alup4,https://www.alupar.com.br
+Gerdau,ggbr3,https://www.gerdau.com
+EMAE,emae4,https://www.emae.com.br
+São Carlos,scar3,https://www.scsa.com.br
+Renova Energia,rnew4,https://www.investidor10.com.br
+ISA Energia,isae3,https://www.isaenergiabrasil.com.br
+Westwing,west3,https://www.infomoney.com.br
+CEB,cebr6,https://www.ceb.com.br
+Banco Pine,pine3,https://www.pine.com
+João Fortes,jfen3,https://www.joaofortes.com.br
+Whirlpool,whrl4,https://www.whirlpool.com.br
+Whirlpool,whrl3,https://www.whirlpool.com.br
+Bombril,bobr4,https://www.bombril.com.br
+CEB,cebr3,https://www.ceb.com.br
+Log-In,logn3,https://www.loginlogistica.com.br
+Banco da Amazônia,baza3,https://www.bancoamazonia.com.br
+Banestes,bees3,https://www.banestes.com.br
+Celesc,clsc4,https://www.celesc.com.br
+Azevedo & Travassos,azev11,https://www.azevedotravassos.com.br
+Padtec,pdtc3,https://www.padtec.com.br
+Embpar Participações,epar3,https://www.embpar.com.br
+RNI,rdni3,https://www.rni.com.br
+Rossi Residencial,rsid3,https://www.rossiresidencial.com.br
+Neogrid,ngrd3,https://www.infomoney.com.br
+Habitasul,hbts5,https://www.habitasul.com.br
+Tronox Pigmentos,crpg5,https://www.cristal-al.com.br
+Equatorial Energia Pará,eqpa3,https://www.equatorialenergia.com.br
+Alpargatas,alpa3,https://www.alpargatas.com.br
+Jereissati Participações,igti3,https://www.jereissati.com.br
+Iguatemi,igti3,https://www.jereissati.com.br
+Jereissati Participações,igti3,https://www.jereissati.com.br
+Iguatemi,igti3,https://www.jereissati.com.br
+Alupar,alup3,https://www.alupar.com.br
+Sansuy,snsy5,https://www.sansuy.com.br
+Banrisul,brsr3,https://www.banrisul.com.br
+Taurus,tasa3,https://www.taurus.com.br
+Braskem,brkm6,https://www.google.com
+Unipar,unip3,https://www.unipar.com
+Alphaville,avll3,https://www.statusinvest.com.br
+Energisa,engi4,https://www.energisa.com.br
+Refinaria de Manguinhos,rpmg3,https://www.infomoney.com.br
+ATOM EDUCAÇÃO E EDITORA S.A.,ated3,https://www.atomeducacional.com.br
+WLM,wlmm4,https://www.wlm.com.br
+Grazziotin,cgra4,https://www.grazziotin.com.br
+Hotéis Othon,hoot4,https://www.ciahoteisothon.com.br
+Nutriplant,nutr3,https://www.nutriplant.com.br
+Banco BTG Pactual,bpac3,https://www.btgpactual.com
+Banestes,bees4,https://www.banestes.com.br
+Minupar,mnpr3,https://www.minupar.com.br
+Randon,rapt3,https://www.randon.com.br
+Pettenati,ptnt4,https://www.pettenati.com.br
+Döhler,dohl4,https://www.infomoney.com.br
+Banco BTG Pactual,bpac5,https://www.btgpactual.com
+Rede Energia,rede3,https://www.energisa.com.br
+Dtcom,dtcy3,https://www.dtcom.com.br
+Santanense,ctsa4,https://www.santanense.com.br
+Trevisa,luxm4,https://www.trevisa.com.br
+Metalúrgica Riosulense,rsul4,https://www.riosulense.com.br
+Grazziotin,cgra3,https://www.grazziotin.com.br
+Ourofino Saúde Animal,ofsa3,https://www.ourofino.com
+General Shopping & Outlets,gshp3,https://www.generalshopping.com.br
+Panatlântica,pati3,https://www.panatlantica.com.br
+Telebras,telb3,https://www.telebras.com.br
+Dexxos,dexp4,https://www.dexxos.com.br
+Cedro Têxtil,cedo4,https://www.cedro.com.br
+Baumer,balm4,https://www.baumer.com.br
+Banco de Brasília,bsli3,https://www.brb.com.br
+Participações Aliança da Bahia,peab4,https://www.aliancaparticipacoes.com.br
+Rio Paranapanema Energia,gepa4,https://www.paranapanemaenergia.com.br
+Banco de Brasília,bsli4,https://www.brb.com.br
+Renova Energia,rnew11,https://www.investidor10.com.br
+Haga,haga3,https://www.haga.com.br
+Comgás,cgas5,https://www.www.com
+Rio Paranapanema Energia,gepa3,https://www.paranapanemaenergia.com.br
+Banrisul,brsr5,https://www.banrisul.com.br
+Mangels,mgel4,https://www.mangels.com.br
+Haga,haga4,https://www.haga.com.br
+Comgás,cgas3,https://www.www.com
+Celesc,clsc3,https://www.celesc.com.br
+Metisa,mtsa4,https://www.metisa.com.br
+Coelce,coce3,https://www.eneldistribuicao.com.br
+CEB,cebr5,https://www.ceb.com.br
+RDVC CITY,ccty3,https://www.br.investing.com
+Electro Aço Altona,ealt3,https://www.altona.com.br
+Wetzel,mwet4,https://www.wetzel.com.br
+Pettenati,ptnt3,https://www.pettenati.com.br
+Afluente T,aflt3,https://www.infomoney.com.br
+Plascar,plas3,https://www.plascar.com.br
+Santanense,ctsa3,https://www.santanense.com.br
+PPLA,ppla11,https://www.btgpactual.com
+Monark,bmks3,https://www.monark.com.br
+Lojas Marisa,amar11,https://www.marisa.com.br
+OSX Brasil,osxb3,https://www.osx.com.br
+Telebras,telb4,https://www.telebras.com.br
+Mundial,mndl3,https://www.mundial.com
+COELBA,ceeb3,https://www.coelba.com.br
+Eucatex,euca3,https://www.eucatex.com.br
+Sansuy,snsy3,https://www.sansuy.com.br
+Brasil Brokers,nexp3,https://www.google.com
+Copel,cple5,https://www.copel.com
+Banese,bgip4,https://www.banese.com.br
+Alfa Holdings,rpad3,https://www.alfanet.com.br
+Banco do Nordeste,bnbr3,https://www.bnb.gov.br
+Elektro,ektr3,https://www.investidor10.com.br
+Karsten,ctka4,https://www.karsten.com.br
+Ferbasa,fesa3,https://www.ferbasa.com.br
+Monteiro Aranha,moar3,https://www.monteiroaranha.com.br
+Energisa MT,enmt4,https://www.energisa.com.br
+Cedro Têxtil,cedo3,https://www.cedro.com.br
+Baumer,balm3,https://www.baumer.com.br
+Estrela,estr4,https://www.estrela.com.br
+Cemepe,mapt4,https://www.infomoney.com.br
+CEEE D,ceed3,https://www.ceee.com.br
+Elektro,ektr4,https://www.investidor10.com.br
+São Paulo Turismo,aheb5,https://www.spturis.com
+COELBA,ceeb5,https://www.coelba.com.br
+Banco Mercantil do Brasil,bmeb3,https://www.mercantildobrasil.com.br
+Banco Pine,pine11,https://www.pine.com
+Unipar,unip5,https://www.unipar.com
+Panatlântica,pati4,https://www.panatlantica.com.br
+WLM,wlmm3,https://www.wlm.com.br
+Excelsior,bauh4,https://www.excelsior.ind.br
+EMAE,emae3,https://www.emae.com.br
+MRS Logística,mrsa5b,https://www.google.com
+Josapar,jopa3,https://www.josapar.com.br
+Tronox Pigmentos,crpg6,https://www.cristal-al.com.br
+Ampla Energia,cbee3,https://www.eneldistribuicao.com.br
+Bardella,bdll4,https://www.bardella.com.br
+Hercules,heta4,https://www.hercules.ind.br
+Banco Mercantil de Investimentos,bmin4,https://www.mercantildobrasil.com.br
+Natura,ntco3,https://www.naturaeco.com
+Banese,bgip3,https://www.banese.com.br
+Equatorial Maranhão,eqma3b,https://www.cemar-ma.com.br
+Nordon,nord3,https://www.nordon.ind.br
+Energisa MT,enmt3,https://www.energisa.com.br
+Karsten,ctka3,https://www.karsten.com.br
+Metalfrio,frio3,https://www.metalfrio.com.br
+Alfa Holdings,rpad6,https://www.alfanet.com.br
+Tronox Pigmentos,crpg3,https://www.cristal-al.com.br
+Iguatemi,igti4,https://www.jereissati.com.br
+Jereissati Participações,igti4,https://www.jereissati.com.br
+Iguatemi,igti4,https://www.jereissati.com.br
+Jereissati Participações,igti4,https://www.jereissati.com.br
