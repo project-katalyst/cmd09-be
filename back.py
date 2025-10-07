@@ -6,17 +6,47 @@ import pandas as pd
 from utils import get_sellside_tags, matching
 
 app = Flask(__name__)
-CORS(app)
+
+CORS(
+    app,
+    resources={r"/*": {"origins": [
+        "http://localhost:5173", "http://127.0.0.1:5173",
+        "http://localhost:3000", "http://127.0.0.1:3000"
+    ]}},
+    supports_credentials=False,
+    methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization"],
+    expose_headers=["Content-Type"]
+)
+
+# (opcional mas ajuda ambientes chatos)
+@app.after_request
+def add_cors_headers(resp):
+    print('\nAdding CORS headers to response\n')
+    # se o flask-cors falhar em algum response personalizado, garantimos aqui
+    origin = request.headers.get("Origin")
+    if origin in {"http://localhost:5173","http://127.0.0.1:5173",
+                  "http://localhost:3000","http://127.0.0.1:3000"}:
+        resp.headers["Access-Control-Allow-Origin"] = origin
+        resp.headers["Vary"] = "Origin"
+        resp.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
+        resp.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+    return resp
+
 
 def bad(msg, code=400):
     return jsonify({"ok": False, "error": msg}), code
 
 @app.get("/healthz")
 def healthz():
+    print('\nHealth check OK\n')
     return jsonify({"status": "ok"}), 200
 
 @app.post("/tags")
 def tags():
+    if request.method == "OPTIONS":
+        return ("", 204)
+    print('\nReceived /tags request\n')
     try:
         data = request.get_json(silent=True)
         if not isinstance(data, dict) or "url" not in data:
@@ -28,12 +58,14 @@ def tags():
         tags, summary = get_sellside_tags(url)
         if not isinstance(tags, pd.DataFrame):
             return bad("utils.extract must return a DataFrame.", 500)
+        print(tags.to_dict('list'))
         return jsonify({"tags": tags.to_dict('list'), "summary": summary}), 200
     except Exception as e:
         return jsonify({"error": f"extract error: {e}"}), 500
 
 @app.post("/scores")
 def scores():
+    print('\nReceived /scores request\n')
     try:
         data = request.get_json(silent=True)
         if not isinstance(data, dict):
