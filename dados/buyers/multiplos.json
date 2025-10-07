@@ -1,0 +1,46 @@
+[
+    {
+        "sector": "Consumer Staples",
+        "multiple": 10.44
+    },
+    {
+        "sector": "Energy",
+        "multiple": 5.90
+    },
+    {
+        "sector": "Industrials",
+        "multiple": 6.71
+    },
+    {
+        "sector": "Real Estate",
+        "multiple": 1.79
+    },
+    {
+        "sector": "Information Technology",
+        "multiple": 8.65
+    },
+    {
+        "sector": "Consumer Discretionary",
+        "multiple": 10.02
+    },
+    {
+        "sector": "Utilities",
+        "multiple": 12.82
+    },
+    {
+        "sector": "Communication Services",
+        "multiple": -45.18
+    },
+    {
+        "sector": "Financials",
+        "multiple": 26.81
+    },
+    {
+        "sector": "Materials",
+        "multiple": 4.73
+    },
+    {
+        "sector": "Health Care",
+        "multiple": 12.14
+    }
+]
