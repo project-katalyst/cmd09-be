@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 
-from utils import get_sellside_tags, matching
+from utils import get_financials_report, get_sellside_tags, matching
 
 app = Flask(__name__)
 
@@ -112,6 +112,31 @@ def scores():
         return jsonify(out), 200
     except Exception as e:
         return jsonify({"error": f"score error: {e}"}), 500
+
+@app.post("/financials")
+def financials():
+    try:
+        data = request.get_json(silent=True)
+        if not isinstance(data, dict):
+            return jsonify({"error": "Body must be a JSON object."}), 421
+        if "ticker" not in data:
+            return jsonify({"error": "Missing fields: tags and/or ebitda"}), 422
+        ticker = data["ticker"]
+        if not isinstance(ticker, str):
+            return jsonify({"error": "ticker must be a valid string."}), 422
+        if 'data' not in data:
+            return jsonify({"error": "Missing field: data"}), 422
+        data = data['data']
+        if not isinstance(data, str):
+            return jsonify({"error": "data must be a valid string."}), 422
+        financials = get_financials_report(ticker, data)
+        out = {
+            'financials':financials.to_dict('list')
+            }
+        return jsonify(out), 200
+    except Exception as e:
+        return jsonify({"error": f"score error: {e}"}), 500
+
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", "8000"))
