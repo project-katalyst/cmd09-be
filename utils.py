@@ -302,7 +302,7 @@ def matching(target_tags: dict[str, list[str]], target_ebitda: float) -> Tuple[l
 def get_financials_report(tiker:str, data:str) -> pd.DataFrame:
     ticker = tiker.lower()
     try:
-        financials = BUYERS_FINANCIALS[(BUYERS_FINANCIALS['ticker'] == ticker)&(BUYERS_FINANCIALS['data'].str.contains(data))]
+        financials = BUYERS_FINANCIALS[(BUYERS_FINANCIALS['ticker'] == ticker)&(BUYERS_FINANCIALS['data'].apply(lambda x: x in data))]
         if financials.empty:
             return pd.DataFrame()
     except IndexError:
