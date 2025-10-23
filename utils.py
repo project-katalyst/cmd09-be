@@ -294,7 +294,7 @@ def matching(target_tags: dict[str, list[str]], target_ebitda: float) -> Tuple[l
             multiple = get_lowest_multiple(target_sectors)
             if calculate_merger_net_debt(buyer_ebitda, buyer_dl, target_ebitda, multiple) < 3.5:
                 score = matching_by_code(target_tags, buyer[5])
-                scores.append({'Nome': buyer[1], 'Site': buyer[3], 'Resumo': buyer[4], 'Score': round(score,1), 'EBITDA': buyer_ebitda, 'Data do EBITDA': data})
+                scores.append({'Nome': buyer[1],'Ticker':buyer[2], 'Site': buyer[3], 'Resumo': buyer[4], 'Score': round(score,1), 'EBITDA': buyer_ebitda, 'Data do EBITDA': data})
             else:
                 print(f"Buyer {buyer[1]} skipped due to high net debt after merger.")
     return scores, target_ebitda * multiple

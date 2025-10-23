@@ -103,6 +103,7 @@ def scores():
             out['Scores'].append({
                 "Nome": item["Nome"],
                 "Site": item["Site"],
+                "Ticker": item['Ticker'],
                 "Resumo": item["Resumo"],
                 "Score": item["Score"],
                 "EBITDA": float(item["EBITDA"]),
