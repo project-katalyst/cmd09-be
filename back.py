@@ -125,14 +125,9 @@ def financials():
         ticker = data["ticker"]
         if not isinstance(ticker, str):
             return jsonify({"error": "ticker must be a valid string."}), 422
-        if 'data' not in data:
-            return jsonify({"error": "Missing field: data"}), 422
-        data = data['data']
-        if not isinstance(data, str):
-            return jsonify({"error": "data must be a valid string."}), 422
-        financials = get_financials_report(ticker, data)
+        financials = get_financials_report(ticker)
         out = {
-            'financials':financials.to_dict('list')
+            'financials':financials
             }
         return jsonify(out), 200
     except Exception as e:

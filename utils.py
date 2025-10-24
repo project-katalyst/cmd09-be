@@ -299,15 +299,21 @@ def matching(target_tags: dict[str, list[str]], target_ebitda: float) -> Tuple[l
                 print(f"Buyer {buyer[1]} skipped due to high net debt after merger.")
     return scores, target_ebitda * multiple
 
-def get_financials_report(tiker:str, data:str) -> pd.DataFrame:
+def get_financials_report(tiker:str) -> pd.DataFrame:
     ticker = tiker.lower()
+    dfs = {}
     try:
-        financials = BUYERS_FINANCIALS[(BUYERS_FINANCIALS['ticker'] == ticker)&(BUYERS_FINANCIALS['data'].apply(lambda x: x in data))]
-        if financials.empty:
-            return pd.DataFrame()
+        financials = BUYERS_FINANCIALS[BUYERS_FINANCIALS['ticker'] == ticker]
+        for relatorio in financials['relatorio'].unique():
+            df_temp = financials[financials['relatorio'] == relatorio].reset_index(drop=True)
+            dfs[relatorio] =(
+                                df_temp
+                                .pivot(index='nome_coluna', columns='data', values='valor')
+                                .sort_index(axis=1)
+                            ).to_dict()
     except IndexError:
         return pd.DataFrame()
-    return financials
+    return dfs
 
 
 def generate_target_list(company_tags:list[str], buyers: pd.DataFrame, n_results: int = 20, output_file: str = 'output.xlsx') -> pd.DataFrame:
